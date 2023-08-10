@@ -1,10 +1,6 @@
 from smtplib import SMTP_SSL, SMTP_SSL_PORT, SMTP, SMTP_PORT
 from email.message import EmailMessage
 
-import logging
-
-logging.basicConfig(filename='imap_tools.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s',
-                    level='DEBUG')
 
 # Craft the email using email.message.EmailMessage
 from_email = 'My name <someone@examples.com>'  # or simply the email address
